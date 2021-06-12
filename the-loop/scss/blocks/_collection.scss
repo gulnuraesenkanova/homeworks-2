@@ -1,0 +1,31 @@
+@import "../vars";
+     .collection__inner {
+         padding: 150px 0;
+         text-align: center;
+         
+     }
+    .collection__title {
+        margin: 0 0 100px 0;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #212121;
+        text-align: center;
+    }
+    .collection__btn {
+        position: relative;
+        margin-top: 103px;
+        padding-right: 64px;
+    }
+    .collection__btn::after {
+        position: absolute;
+        content: "";
+        width: 20px;
+        height: 8px;
+        right: 35px;
+        top: 21px;
+        background-image: url("../../images/Arrow.svg");
+        background-position: center;
+    }

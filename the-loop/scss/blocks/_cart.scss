@@ -1,0 +1,36 @@
+@import "../vars";
+
+.cart {
+  .cart__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 15px;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $accent-color;
+    }
+  }
+
+  .cart a {
+    text-decoration: none;
+  }
+  .cart img {
+    margin-right: 25px;
+  }
+
+  .cart__informer {
+    display: inline-block;
+    padding: 5px 13px;
+    background-color: $accent-color;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

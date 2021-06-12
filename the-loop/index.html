@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Loop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" /> 
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+   
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo_header__logo">
+            <a class="logo__link header__logo-link" href="#">
+              <img
+                class="logo__img"
+                src="images/logo.svg"
+                alt="The Loop logo"
+              />
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="menu">
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">Для мужчин</a>
+                <ul class="header__submenu">
+                  <li class="header__menu-item">
+                    <a class="header__submenu-link" href="#">Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">Для женщин</a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-item">
+                    <a class="header__submenu-link" href="#">Item</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">Для детей</a>
+                <ul class="header__submenu">
+                  <li class="header__submenu-item">
+                    <a class="header__submenu-link" href="#">Item</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__links">
+            <a class="header__link" href="#">Оплата</a>
+            <a class="header__link" href="#">Доставка</a>
+          </div>
+          <div class="cart">
+            <a class="cart__link" href="#">
+              <span class="sr-only">Корзина</span>
+              <img src="images/cart.svg" alt="Иконка корзины" />
+              <span class="cart__informer"> 5 </span>
+            </a>
+          </div>
+        </div>
+      </div>
+        </div>
+        <section class="slider">
+          <div class="container">
+            <div class="slider__inner">
+              <div class="slider__item">
+                <div class="slider__item-inner">
+                  <div class="slider__text">
+                    <h1 class="slider__title">зимняя распродажа</h1>
+                    <span class="slider__promo"> скидки до 90%</span>
+                    <a href="#" class="btn">смотреть модели</a>
+                  </div>
+                  <div class="slider__img">
+                    <img src="images/shoes.png" alt="running shoes" />
+                  </div>
+                  <div class="slider__price">
+                    <span class="slider__old-price">9900 &#8381</span>
+                    <span class="slider__new-price"> 1900 &#8381</span>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__item-inner">
+                  <div class="slider__text">
+                    <h1 class="slider__title">летняя распродажа</h1>
+                    <span class="slider__promo"> скидки до 90%</span>
+                    <a href="#" class="btn">смотреть модели</a>
+                  </div>
+                  <div class="slider__img">
+                    <img src="images/shoes.png" alt="running shoes" />
+                  </div>
+                  <div class="slider__price">
+                    <span class="slider__old-price"> 9 900 &#8381</span>
+                    <span class="slider__new-price"> 1 900 &#8381</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <section class="info">
+            <div class="info__container">
+              <div class="info__inner">
+            <h2 class="info__title">Бесплатная Доставка 
+              <span class="info__title-text">от 3000&#8381</span></h2>
+            <p class="info__txt">сделайте заказ и получите подарок!</p>
+          </div>
+        </div>
+          </section>
+          <section class="catalog">
+            <div class="catalog__top">
+              <div class="container">
+                <div class="catalog__inner">
+                  <div class="catalog__top-column catalog__top-column--mens" >
+                    <h3 class="catalog__title">мужская <span>Коллекция</span>  </h3>
+                    <p class="catalog__descr">
+                      обувь, полуверы, костюмы</p>
+                      <a class="btn catalog__btn" href="">
+                        <span class="sr-only">
+                          перейти к коллекции
+                        </span>
+                        <img src="images/Arrow.svg" alt="Иконка стрелка">
+                      </a>
+                  </div>
+                  <div class="catalog__top-column catalog__top-column--womans" >
+                    <h3 class="catalog__title">Женская  <span>Коллекция</span>  </h3>
+                    <p class="catalog__descr">
+                      обувь, полуверы, костюмы</p>
+                      <a class="btn catalog__btn" href="">
+                        <span class="sr-only">
+                          перейти к коллекции
+                        </span>
+                        <img src="images/Arrow.svg" alt="Иконка стрелка">
+                      </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="container">
+              <ul class="catalog__list">
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                  <a class="catalog__item-link" href="#">красивые платья</a>
+                </h4>
+                <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog">
+                </li>
+                 <li class="catalog__item">
+                   <h4 class="catalog__item-title">
+                     <a  class="catalog__item-link" href="#">Платья</a>
+                   </h4>
+                   <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                 </li>
+                 <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                <li class="catalog__item">
+                  <h4 class="catalog__item-title">
+                    <a  class="catalog__item-link" href="#">Платья</a>
+                  </h4>
+                  <img class="catalog__item-img" src="images/Rectangle.png" alt="catalog" >
+                </li>
+                 </ul>
+            </div>
+
+          </section>
+        <section class="collection">
+          <div class="container">
+            <div class="collection__inner">
+            <h2 class="collection__title">новые модели</h2>
+            <ul class="models collection__models"> 
+              <li class="models__item">
+                <div class="models-img">
+                  <img  class="models__img" src="images/new-item__cards.png" alt="model">
+                </div>
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+               <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+              <li class="models__item">
+                <img src="images/new-item__cards.png" alt="model" class="models__img">
+                <h3>
+                  <a href="#">коктейльное платье</a>
+                </h3>
+                  <span class="models__price">&#8381;40 000</span>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </section>
+
+        <section  class = " info subscribe " >
+    <div  class = " container " >
+      <div class="info__inner subscribe__inner" >
+         <h2  class = " info__title subscribe__title " >
+          Получайте скидки и подарки
+        </h2 >
+        <form  action = " / " class = " subscribe__form " >
+          <input  class = " subscribe__email " type = " email " name = " email " placeholder = " Ваш e-mail " >
+          <button  class = " btn subscribe__btn " > Подписаться </button >
+          </form>
+      </div >
+    </div >
+  </section >
+  <section class="collection">
+    <div class="container">
+      <div class="collection__inner">
+        <h2 class="collection__title">СКИДКИ ДО 90%</h2>
+        <ul class="models collection__models">
+          <li class="models__item">
+            <div class="models-img">
+              <img class="models__img" src="images/new-item__cards.png" alt="Model">
+            </div>
+            <h3>
+              <a href="#">Коктейльное платье</a>
+            </h3>
+            <span class="models__price">&#8381; 40 000</span>
+          </li>
+          <li class="models__item">
+            <img class="models__img" src="images/new-item__cards.png" alt="Model">
+            <h3>
+              <a href="#">Коктейльное платье</a>
+            </h3>
+            <span class="models__price">&#8381; 40 000</span>
+          </li>
+          <li class="models__item">
+            <img class="models__img" src="images/new-item__cards.png" alt="Model">
+            <h3>
+              <a href="#">Коктейльное платье</a>
+            </h3>
+            <span class="models__price">&#8381; 40 000</span>
+          </li>
+          <li class="models__item">
+            <img class="models__img" src="images/new-item__cards.png" alt="Model">
+            <h3>
+              <a href="#">Коктейльное платье</a>
+            </h3>
+            <span class="models__price">&#8381; 40 000</span>
+          </li>
+        </ul>
+        <a class="btn collection__btn" href="#">Все модели</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__info">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__text">
+            <div class="logo header__logo">
+              <a class="logo__link" href="#">
+                <img class="logo__img" src="images/logo.svg" alt="The Loop">
+              </a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur asperiores eius. Magnam, nemo
+              quod voluptatum quam saepe dicta animi odit deleniti unde quibusdam cupiditate atque possimus blanditiis
+              sunt excepturi.
+            </p>
+          </div>
+          <div class="footer__main-links">
+            <h3>Основные ссылки</h3>
+            <ul>
+              <li>
+                <a href="#">О компании</a>
+              </li>
+              <li>
+                <a href="#">Каталог</a>
+              </li>
+              <li>
+                <a href="#">Доставка</a>
+              </li>
+              <li>
+                <a href="#">Оплата</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__categories">
+            <h3>Категории</h3>
+            <ul>
+              <li>
+                <a href="#">Мужская одежда</a>
+              </li>
+              <li>
+                <a href="#">Женская одежда</a>
+              </li>
+              <li>
+                <a href="#">Детская одежда</a>
+              </li>
+              <li>
+                <a href="#">Для животных</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h3>Полезные ссылки</h3>
+            <ul>
+              <li>
+                <a href="#">Таблица размеров</a>
+              </li>
+              <li>
+                <a href="#">Блог о моде</a>
+              </li>
+              <li>
+                <a href="#">Наша миссия</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__socials">
+            <h3>Соц сети</h3>
+            <ul class="socials">
+              <li class="socials__item">
+                <a class="socials__link socials__link--vk" href="#">VK.com</a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--fb" href="#">Facebook</a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link socials__link--in" href="#">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="footer__copy-inner">
+          <p>Copyright &copy; 2021. Все права защищены</p>
+          <p>
+            <a class="footer__privacy" href="#">Политики приватности</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

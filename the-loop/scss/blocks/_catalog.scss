@@ -1,0 +1,76 @@
+@import "../vars";
+
+  .catalog__top {
+    padding-top: 60px;
+    background-color: $secondary-color;
+  }
+  .catalog__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .catalog__top-column {
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .catalog__top-column--mens {
+     background-image: url("../../images/man.png");
+       background-position: bottom right 15px;
+  }
+  .catalog__top-column--womans {
+    background-image: url("../../images/woman.png");
+    background-position: bottom right 44px;
+  }
+  .catalog__title {
+    margin: 0 0 25px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    & span {
+      font-weight: 100;
+    }
+  }
+  .catalog__descr {
+    margin: 0 0 40px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .catalog__btn {
+    padding: 11px 30px;
+  }
+  .catalog__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: $secondary-color;
+  }
+  .catalog__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .catalog__item-title {
+    position: absolute;
+    bottom: 24px;
+    left: 30px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: $dark;
+  }
+  .catalog__item-title a {
+    color: currentColor;
+    color: $dark;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .catalog__item-img {
+    max-width: 277px;
+  }
+
