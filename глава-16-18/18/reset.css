@@ -37,3 +37,7 @@ q:before, q:after {
 	content: none;
 }
 /* конец кода сброса стилей браузера */
+h1{
+	margin-top: 5px;
+	font-size: 2.5em;
+}
